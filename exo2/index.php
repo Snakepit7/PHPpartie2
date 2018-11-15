@@ -2,18 +2,17 @@
 <html lang="fr" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Exo1</title>
+    <title>Exo2</title>
   </head>
   <body>
     <?php
-        $age = 27;
+        $isEasy = true;
         
-        if ($age >= 18) {
-            echo 'Vous êtes majeur.';
+        if ($isEasy === true) {
+            echo 'C\'est facile!';
         } else {
-           echo 'Vous êtes mineur.';
+           echo 'C\'est difficile !';
         }
-        
     ?>
   </body>
 </html>
